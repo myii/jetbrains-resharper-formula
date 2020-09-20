@@ -2,6 +2,15 @@
 Changelog
 =========
 
+`1.2.1 <https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.2.0...v1.2.1>`_ (2020-09-20)
+---------------------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **windows:** fix typo (\ `9a3167d <https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/9a3167da26358e35a2c3433b897d99184aba241c>`_\ )
+
 `1.2.0 <https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.1.0...v1.2.0>`_ (2020-09-20)
 ---------------------------------------------------------------------------------------------------------------------
 
