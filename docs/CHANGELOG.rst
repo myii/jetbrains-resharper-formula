@@ -2,6 +2,24 @@
 Changelog
 =========
 
+`1.2.2 <https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.2.1...v1.2.2>`_ (2020-12-16)
+---------------------------------------------------------------------------------------------------------------------
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **gitlab-ci:** use GitLab CI as Travis CI replacement (\ `e76e2e1 <https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/e76e2e193498d6166bd9f05fca7f3619f450a8ab>`_\ )
+* **pre-commit:** add to formula [skip ci] (\ `1ba57b4 <https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/1ba57b48f74db260202050a4edb35516a8fa4267>`_\ )
+* **pre-commit:** enable/disable ``rstcheck`` as relevant [skip ci] (\ `838e9bd <https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/838e9bd6f2756af32120304da64296263ccae207>`_\ )
+* **pre-commit:** finalise ``rstcheck`` configuration [skip ci] (\ `551c04b <https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/551c04b4b33f36f289b7e837c0396f34c5f95a83>`_\ )
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **readme:** fix ``rstcheck`` violation [skip ci] (\ `5f5c5fe <https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/5f5c5fe1adb68e447773a523f4555827e6d17f24>`_\ ), closes `/travis-ci.org/github/myii/jetbrains-resharper-formula/builds/731607160#L259 <https://github.com//travis-ci.org/github/myii/jetbrains-resharper-formula/builds/731607160/issues/L259>`_
+
 `1.2.1 <https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.2.0...v1.2.1>`_ (2020-09-20)
 ---------------------------------------------------------------------------------------------------------------------
 
