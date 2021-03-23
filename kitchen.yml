@@ -312,6 +312,7 @@ suites:
       state_top:
         base:
           '*':
+            - resharper._mapdata
             - resharper.clean
             - resharper
       pillars:
