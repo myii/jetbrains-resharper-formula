@@ -1,0 +1,119 @@
+= Changelog
+
+:sectnums!:
+
+== link:++https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.2.1...v1.2.2++[1.2.2^] (2020-12-16)
+
+=== Continuous Integration
+
+* *gitlab-ci:* use GitLab CI as Travis CI replacement
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/e76e2e193498d6166bd9f05fca7f3619f450a8ab[e76e2e1^])
+* *pre-commit:* add to formula [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/1ba57b48f74db260202050a4edb35516a8fa4267[1ba57b4^])
+* *pre-commit:* enable/disable `rstcheck` as relevant [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/838e9bd6f2756af32120304da64296263ccae207[838e9bd^])
+* *pre-commit:* finalise `rstcheck` configuration [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/551c04b4b33f36f289b7e837c0396f34c5f95a83[551c04b^])
+
+=== Documentation
+
+* *readme:* fix `rstcheck` violation [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/5f5c5fe1adb68e447773a523f4555827e6d17f24[5f5c5fe^]),
+closes
+https://github.com//travis-ci.org/github/myii/jetbrains-resharper-formula/builds/731607160/issues/L259[/travis-ci.org/github/myii/jetbrains-resharper-formula/builds/731607160#L259^]
+
+== link:++https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.2.0...v1.2.1++[1.2.1^] (2020-09-20)
+
+=== Bug Fixes
+
+* *windows:* fix typo
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/9a3167da26358e35a2c3433b897d99184aba241c[9a3167d^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.1.0...v1.2.0++[1.2.0^] (2020-09-20)
+
+=== Bug Fixes
+
+* *defaults:* no choco tar package
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/d1aa72adebb7feb57d6e10d2646a5e7b71645894[d1aa72a^])
+
+=== Features
+
+* *windows:* basic windows support
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/561f344e97521030c01c4995fd813108e9da0f6e[561f344^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.0.2...v1.1.0++[1.1.0^] (2020-09-20)
+
+=== Features
+
+* *windows:* basic windows support
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/5eec29d9a7a7d5c0eccd82d1dbe9db28ad90b8d2[5eec29d^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.0.1...v1.0.2++[1.0.2^] (2020-07-28)
+
+=== Bug Fixes
+
+* *cmd.run:* wrap url in quotes (zsh)
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/76d5ef913bf6ae32406008d95efc6f34154836fd[76d5ef9^])
+
+=== Code Refactoring
+
+* *jetbrains:* align all jetbrains formulas
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/c5e718c197aa0d3aefff72a8853024a9a33ec8ef[c5e718c^])
+
+=== Continuous Integration
+
+* *kitchen:* use `saltimages` Docker Hub where available [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/1ddc58f142742a3464982b1bc4f776b28dcffdf1[1ddc58f^])
+
+=== Styles
+
+* *libtofs.jinja:* use Black-inspired Jinja formatting [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/fcb8aebefea5c66e24416153c1d54360a3b3ea0f[fcb8aeb^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v1.0.0...v1.0.1++[1.0.1^] (2020-06-15)
+
+=== Continuous Integration
+
+* *kitchen+travis:* add new platforms [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/6bd1309892f852e1a0a365c3b2b8ee244884ce27[6bd1309^])
+* *travis:* add notifications => zulip [skip ci]
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/b534bdfea9a02e455f677a43707b1f78fff644b5[b534bdf^])
+
+=== Documentation
+
+* *readme:* update format
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/a2c3697a968d7164c6cc960d721c4547006fe4e3[a2c3697^])
+
+== link:++https://github.com/saltstack-formulas/jetbrains-resharper-formula/compare/v0.1.0...v1.0.0++[1.0.0^] (2020-05-19)
+
+=== Bug Fixes
+
+* *id:* rename conflicting id
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/64ef23266e0362f783af02aa7737d661f3feabf8[64ef232^])
+* *pcode:* fix rendering error
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/161cd883ed07953337f2c072c831cf674765d13c[161cd88^])
+
+=== Continuous Integration
+
+* *kitchen+travis:* adjust matrix to add `3000.3`
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/71893dcb0bf9266fd73e92b4ad1464ef17f78eda[71893dc^])
+* *travis:* update travis tests
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/e57888d5ea63b70d2131692ba4f4f2c7d1455e0b[e57888d^])
+
+=== Documentation
+
+* *readme:* add depth one
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/b6ca2b1ad0ad3c6237374822246aa575ca8bc583[b6ca2b1^])
+
+=== Features
+
+* *formula:* align to template formula; add ci
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/4aa327550d789b5af37ef915d0c7c172bed5d83a[4aa3275^])
+* *semantic-release:* standardise for this formula
+(https://github.com/saltstack-formulas/jetbrains-resharper-formula/commit/84b5aab25b1aa8b6a3c5b86893c5c2ebd11240e6[84b5aab^])
+
+=== BREAKING CHANGES
+
+* *formula:* Major refactor of formula to bring it in alignment with the
+template-formula. As with all substantial changes, please ensure your
+existing configurations work in the ways you expect from this formula.
